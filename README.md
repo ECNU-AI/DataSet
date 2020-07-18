@@ -6,7 +6,7 @@ path: /Users/xxx/PycharmProjects/DataSet
 
 生成虚拟环境
 ```shell script
-python -m venv ./venv
+python3 -m venv ./venv
 ```
 激活(mac)
 ```shell script
@@ -21,9 +21,9 @@ deactivate
 
 生成requirements.txt文件
 ```shell script
-pip freeze > requirements.txt
+pip3 freeze > requirements.txt
 ```
 安装requirements.txt依赖
 ```shell script
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
