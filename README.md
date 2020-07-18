@@ -27,3 +27,8 @@ pip freeze > requirements.txt
 ```shell script
 pip install -r requirements.txt
 ```
+
+## 生成配置文件
+```shell script
+python3 setup.py
+```
